@@ -3,7 +3,7 @@
 > Dependency hell is real. Virtual environments are the cure.
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Shell
 **Prerequisites:** Phase 0, Lesson 01
 **Time:** ~30 minutes
 
@@ -43,6 +43,10 @@ graph TD
         PB["Project B (.venv/)"] --> PB1["torch 2.1.0 (CUDA 11.8)"]
         PB --> PB2["diffusers 0.28"]
     end
+```
+
+```figure
+s0-env-isolation
 ```
 
 ## Build It
